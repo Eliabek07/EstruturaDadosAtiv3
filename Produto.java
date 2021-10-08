@@ -20,7 +20,7 @@ public class Produto {
   @Override
   
   public String toString(){
-    String str = "Código: " + this.codigo +"\t\tQuantidade: " + this.quantidade + "\n";
+    String str = "Código: " + this.codigo +"\t\tQuantidade: " + this.quantidade + "\t\t";
     str+="Valor: " + this.valor + "\n";
 
     return str;
